@@ -13,11 +13,14 @@ export default class Home extends React.Component {
                 <Col span={4}>
                     <LeftMenu/>
                 </Col>
-                <Col id="mainContainer" style={{height:'100vh','background-color':'grey'}} span={20}>
-                    <div>
+                <Col id="mainContainer" style={{height:'100vh'}} span={20}>
+                    <div style={{height:'10vh'}}>
                       <TopMenu/>
                     </div>
-                    <div>
+                    <div style={{height:'80vh'}} id="chatbox">
+                      <ChatContainer/>
+                    </div>
+                    <div style={{height:'10vh'}}>
                     <MessageInput/>
                     </div>
                 </Col>

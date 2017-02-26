@@ -1,12 +1,239 @@
 import React from 'react';
 import './home.css';
 
-export default class ChatContainer extends React.Component{
-  render(){
-    return(
-        <div id="messageContainer">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-    );
-  }
+export default class ChatContainer extends React.Component {
+    render() {
+        return (
+            <div id="messageContainer">
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>1 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>2 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>3 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>1 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>2 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>3 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>1 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>2 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>3 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>1 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>2 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div className="messageView">
+                        <div>
+                            <img className="messageIcon" src="https://ab-prod-media-assets.s3.amazonaws.com/1/profile_pictures/raghavender-mittapalli/raghavender-mittapalli-present.png"/>
+                        </div>
+                        <div>
+                        <div className="messageContentHeader">
+                          <a className="messageSender" href="#">Vishal Bisht</a>
+                          <a className="messageTime" href="#">5:30 PM</a>
+                          <span id="starChannelIcon">
+                              <i className="fa fa-star-o" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                        <div className="messageBody">
+                          <p>3 MATCH path=(node1:Label-[*..100]->()
+                             RETURN relationships(path) as rels</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        );
+    }
 }

@@ -7,12 +7,15 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
+import LandingPage from './views/landingPage'
 import Home from './views/home';
+
 
 ReactDOM.render(
 	<MuiThemeProvider>
 		<Router history={hashHistory}>
-			<Route path="/" component={Home} />
+			<Route path="/" component={LandingPage} />
+			<Route path="/home" component={Home}/>
 		</Router>
 	</MuiThemeProvider>,
   	document.getElementById('mountapp')

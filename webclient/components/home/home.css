@@ -1,0 +1,57 @@
+/**** side bar ***/
+
+
+
+/*****************/
+
+/**** main comtainer ***/
+
+
+
+/*****************/
+
+/**** top menu ***/
+#channelHeader{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 3px;
+  border-color: blue;
+  padding: 10px;
+}
+#channelInfo{
+  padding-left: 10px;
+}
+#channelName{
+  
+}
+#channelHeaderInfo{
+
+}
+
+
+/*****************/
+
+/**** chat container ***/
+
+
+
+/*****************/
+
+/**** message view ***/
+
+
+
+/*****************/
+
+
+/**** message input ***/
+
+#messageInput{
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+  padding: 10px;
+}
+
+/*****************/

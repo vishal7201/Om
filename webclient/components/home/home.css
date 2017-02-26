@@ -65,11 +65,13 @@
 /**** message view ***/
 /***** chat text css**/
 #chatbox{
+  height: inherit;
   position: relative;
   border: 5px soild black;
   overflow-y: scroll;
 }
 #messageContainer{
+  height: inherit;
   margin-left: 15px;
   position: absolute;
   bottom: 0;
